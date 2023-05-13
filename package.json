@@ -1,0 +1,31 @@
+{
+  "name": "files-reader-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "standard": "npx standard",
+    "test": "npx mocha src/tests/**/*.spec.js --recursive",
+    "dev": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "got": "^12.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-spies": "^1.0.0",
+    "mocha": "^10.2.0",
+    "standard": "^17.0.0",
+    "supertest": "^6.3.3"
+  }
+}

@@ -1,0 +1,5 @@
+FROM node:14.17.3
+WORKDIR /usr/backend
+COPY package.json ./
+RUN npm install
+COPY . .
